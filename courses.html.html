@@ -1,0 +1,151 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>university website design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;0,700;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/d371c7e615.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/iu-logo.png" alt="LOGO" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="courses.html.html">COURSES</a></li>
+            <li><a href="blog.html.html">BLOG</a></li>
+            <li><a href="about.index.html">ABOUT US</a></li>
+            <li><a href="contact.html.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+<!-------Our courses----->
+
+<section class="about">
+  <h1>Courses We Offer</h1>
+  <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident,
+    amet.
+  </p>
+
+  <div class="row">
+    <div class="about-col">
+      <h3>Cyber Security</h3>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente,
+        ipsa adipisci. Dolore architecto perferendis porro quasi. Tenetur
+        atque beatae alias. Adipisci aliquam magnam dignissimos blanditiis
+        ipsum dolorem suscipit recusandae quas.
+      </p>
+    </div>
+    <div class="about-col">
+      <h3>Marketing</h3>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente,
+        ipsa adipisci. Dolore architecto perferendis porro quasi. Tenetur
+        atque beatae alias. Adipisci aliquam magnam dignissimos blanditiis
+        ipsum dolorem suscipit recusandae quas.
+      </p>
+    </div>
+    <div class="about-col">
+      <h3>Coding</h3>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente,
+        ipsa adipisci. Dolore architecto perferendis porro quasi. Tenetur
+        atque beatae alias. Adipisci aliquam magnam dignissimos blanditiis
+        ipsum dolorem suscipit recusandae quas.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-----blogs------>
+
+  
+<section class="blog">
+  <h1>Unversity Blog</h1>
+  <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa,
+    commodi?
+  </p>
+
+  <div class="row">
+    <div class="blog-col">
+      <img src="images/lolo.jpg" />
+      <h3>World Class Library</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+        deserunt eligendi, numquam consectetur nam voluptate vero dolore
+        repellendus fugit aperiam!
+      </p>
+    </div>
+    <div class="blog-col">
+      <img src="images/sports.jpg" />
+      <h3>UNI sports</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+        deserunt eligendi, numqu am consectetur nam voluptate vero dolore
+        repellendus fugit aperiam!
+      </p>
+  </div>
+  <div class="blog-col">
+    <img src="images/tech.jpg" />
+    <h3>Technology</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+      deserunt eligendi, numquam consectetur nam voluptate vero dolore
+      repellendus fugit aperiam!
+    </p>
+    </div>
+
+</section>
+
+<!---footer---->
+
+<section class="footer">
+  <h4>ABOUT US</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi quaerat amet officia obcaecati omnis repellendus architecto temporibus,<br> iste, mollitia perspiciatis in quos ipsum eum culpa officiis voluptate perferendis. Vero?</p>
+
+<div class="icons">
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-twitter"></i>
+  <i class="fa fa-instagram"></i>
+  <i class="fa fa-youtube"></i>
+</div>
+<p>made with <i class="fa fa-heart-o"></i> by ibrahim</p>
+</section>
+
+    <!-----java script menu hamburger------>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
+
